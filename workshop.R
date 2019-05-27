@@ -53,4 +53,15 @@ df_epil <- as.data.frame(DT.epil) %>% dplyr::select(y, trt, post, subject, tj)
 # write data in correct format to data folder ----
 usethis::use_data(df_epil, overwrite = TRUE)
 
+devtools::document()
 
+pacman::p_load(sinew)
+sinew::makeOxyFile("R/fit_models.R")
+
+devtools::document()
+
+usethis::use_package("lme4", type = "Imports")
+usethis::use_package("lme4", type = "Suggests")
+
+?df_epil
+  
