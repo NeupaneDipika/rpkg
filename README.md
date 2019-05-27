@@ -7,6 +7,8 @@
 
 [![Travis build
 status](https://travis-ci.org/NeupaneDipika/rpkgs.svg?branch=master)](https://travis-ci.org/NeupaneDipika/rpkgs)
+[![AppVeyor build
+status](https://ci.appveyor.com/api/projects/status/github/NeupaneDipika/rpkgs?branch=master&svg=true)](https://ci.appveyor.com/project/NeupaneDipika/rpkgs)
 <!-- badges: end -->
 
 The goal of rpkgs is to …
