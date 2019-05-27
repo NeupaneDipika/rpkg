@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![Travis build
+status](https://travis-ci.org/NeupaneDipika/rpkgs.svg?branch=master)](https://travis-ci.org/NeupaneDipika/rpkgs)
 <!-- badges: end -->
 
 The goal of rpkgs is to …
