@@ -28,3 +28,8 @@ usethis::use_travis()
 
 # sets up testing infrastructure
 usethis::use_testthat()
+
+?rpkgs
+rpkgs::
+  pacman::p_functions(rpkgs)
+
